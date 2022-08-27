@@ -52,7 +52,7 @@ MAIN CSS
 ************************************/
 body {
  font-family: 'Rubik', sans-serif;
- background-color: #3498db;
+ background-color: #fefae0;
  color: rgba(0, 0, 0, .88);
  line-height: 1.5;
  display: flex;
@@ -60,8 +60,11 @@ body {
  height: 100vh;
  letter-spacing: .25px;
 }
+h1{
+  color: #20325C;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
  text-transform: uppercase;
  color: #20325C;
 }
@@ -149,12 +152,12 @@ h2 {
   margin: .5em 0 -.1em 0;
   font-size: 1.25em;
   border-style: none;
-  background-color: #F25749;
+  background-color: #007f5f;
   color: #fff;
 }
 
 .compliment-button:hover {
-  background-color: #c0392b;
+  background-color: #55a630;
 }
 
 .compliment-button:active {

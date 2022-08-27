@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Complimentr</title>
+    <title>WeCompliment</title>
     <!-- Include Dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link
@@ -15,7 +15,7 @@
   </head>
   <body>
     <div id="app" class="container">
-      <h1>Complimentr</h1>
+      <h1>WeCompliment</h1>
       <h2>Recent Compliments</h2>
       <div class="content">
         <ul v-if="compliments.length > 0">
@@ -36,7 +36,7 @@
             Number to compliment
             <input
               type="tel"
-              placeholder="+15550123456"
+              placeholder="+12360001111"
               name="to"
               v-model="to"
             />
@@ -45,7 +45,7 @@
             Your Name
             <input
               type="text"
-              placeholder="Jane"
+              placeholder="Boris"
               name="sender"
               v-model="sender"
             />
@@ -56,7 +56,7 @@
             Person to compliment
             <input
               type="text"
-              placeholder="Sally"
+              placeholder="MaxJunior"
               name="receiver"
               v-model="receiver"
             />
@@ -66,7 +66,7 @@
             Your compliment
             <input
               type="text"
-              placeholder="an amazing person!"
+              placeholder="You are amazing person!"
               name="compliment"
               v-model="compliment"
             />
