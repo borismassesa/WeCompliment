@@ -1,24 +1,6 @@
-# Example Application - Complimentr
+# WeCompliment
 
-This application is meant to be used with the [ 🎥 Introduction to APIs course](https://github.com/craigsdennis/intro-to-apis-course).
+This Application its mainly goal was to practise the use of remote API's, I have used Twilio for sending SMS.
 
-## Use this on Glitch
+![WeCompliment](https://user-images.githubusercontent.com/104251801/187050397-bb0f8e8f-c698-4359-977d-670322c4d272.png)
 
-[Remix on Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/craigsdennis/intro-to-apis-node)
-
-⚠️ Several students have reported that cloning erroneously sets up a default Glitch application. If this happens to you, in the Glitch app that is created choose **Tools** >> **Extras** >> **Git Import and Export** >> **Import from GitHub** when prompted enter  `craigsdennis/intro-to-apis-node`
-
-
-## Local Installation
-
-Copy `.env.example` to `.env` and update it with your [Twilio](https://twilio.com) credentials.
-
-## Running the application
-
-* `npm install`
-* `npm start`
-
-### In Development mode
-
-* Run [ngrok](https://ngrok.com/) on port 3000
-* Visit your ngrok url!
